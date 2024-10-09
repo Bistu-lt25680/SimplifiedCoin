@@ -2,5 +2,9 @@
   "dependencies": {
     "crypto-js": "^4.2.0",
     "elliptic": "^6.5.7"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/elliptic": "^6.4.18"
   }
 }
