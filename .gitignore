@@ -2,5 +2,5 @@ node_modules
 package-lock.json
 *.lock
 test/
-!test/1.ts
+!test/index.ts
 *.log
