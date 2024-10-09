@@ -1,11 +1,8 @@
-import SHA256 from "crypto-js/sha256";
-import EC from "elliptic";
-const ec = new EC.ec("secp256k1");
+import {Chain, Block} from ".";
 
+const chain = new Chain();
+const block1 = new Block("转账10元", "123");
 
+chain.addBlockToChain(block1);
 
-
-
-
-
-export { ec };
+console.log(chain);

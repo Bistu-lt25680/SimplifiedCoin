@@ -1,5 +1,6 @@
 node_modules
 package-lock.json
 *.lock
-test/1.js
+test/
+!test/1.ts
 *.log
