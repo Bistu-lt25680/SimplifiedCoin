@@ -1,4 +1,25 @@
 {
+  "name": "simplifiedcoin",
+  "version": "1.0.0",
+  "description": "Simple handmade blockchain",
+  "main": "test/index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bistu-lt25680/SimplifiedCoin.git"
+  },
+  "author": "LiuTian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bistu-lt25680/SimplifiedCoin/issues"
+  },
+  "homepage": "https://github.com/Bistu-lt25680/SimplifiedCoin#readme",
+  
   "dependencies": {
     "crypto-js": "^4.2.0",
     "elliptic": "^6.5.7"
